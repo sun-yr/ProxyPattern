@@ -7,9 +7,9 @@
 
 [Wildcard]
 *twitter.com/*
-*.youtube.com/*
+*youtube.com/*
 *.ytimg.com/*
-*.facebook.com/*
+*facebook.com/*
 *archive.org/*
 *instagram.com/*
 *gist.github.com/*
