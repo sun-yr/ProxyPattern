@@ -71,20 +71,33 @@ def parse_json(full_inpath, full_outpath, file_path):
 
 [Wildcard]
 '''
-    switchy_after = '''
+    switchy_mid = '''
 [RegExp]
-
+'''
+    switchy_end = '''
 #END'''
-    switchy_txt = open(file_path + os.sep + 'switchyrules.txt', 'wt')
+
     json_file = open(full_inpath, 'rt')
     json_data = json.loads(json_file.read())
-    switchy_txt.write(switchy_pre)
+    wildcard_items = []
+    regex_items = []
 
     for content in json_data['patterns']:
-        switchy_txt.write(content['pattern'] + '\n')
-
+        # print(content['enabled'])
+        if content['enabled'] and not content['isRegEx']:
+            wildcard_items.append(content['pattern'] + '\n')
+        if content['enabled'] and content['isRegEx']:
+            regex_items.append(content['pattern'] + '\n')
     json_file.close()
-    switchy_txt.write(switchy_after)
+
+    switchy_txt = open(file_path + os.sep + 'switchyrules.txt', 'wt')
+    switchy_txt.write(switchy_pre)
+    for item in wildcard_items:
+        switchy_txt.write(item)
+    switchy_txt.write(switchy_mid)
+    for item in regex_items:
+        switchy_txt.write(item)
+    switchy_txt.write(switchy_end)
     switchy_txt.close()
 
 

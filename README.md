@@ -12,6 +12,8 @@
 
 默认读入当前路径的`patterns.json`。
 
-## SwitchSharp
+## SwitchySharp
 
-第二个选项卡直接将链接复制进去更新即可。
+在SwitchySharp选项中切换到第二个标签页“切换规则”，启用在线规则列表，将以下地址填入：
+
+    https://raw.githubusercontent.com/cnDelbert/ProxyPattern/master/SwitchySharp/switchyrules.txt
