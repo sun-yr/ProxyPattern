@@ -88,7 +88,12 @@ def parse_json(full_inpath, full_outpath, file_path):
     switchy_txt.close()
 
 
+def move_switchysharp():
+    os.system("mv -f switchyrules.txt ../SwitchySharp/switchyrules.txt")
+
+
 if __name__ == '__main__':
     file_p, file_i, file_o = parse_args()
     fi_path, fo_path = get_path(file_p, file_i, file_o)
     parse_json(fi_path, fo_path, file_p)
+    move_switchysharp()
