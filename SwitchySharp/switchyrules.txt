@@ -1,6 +1,6 @@
 ; Summary: Rule List Converted from FoxyProxy
 ; Author: Delbert (i@delbert.me)
-; Date: 2014-12-06
+; Date: 2014-12-14
 ; URL: https://github.com/cnDelbert/ProxyPattern/blob/master/SwitchySharp/switchyrules.txt
 
 #BEGIN

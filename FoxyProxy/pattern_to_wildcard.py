@@ -4,6 +4,8 @@ __author__ = 'Delbert'
 import json
 import argparse
 import os
+import datetime
+import re
 
 
 def parse_args():
@@ -77,6 +79,8 @@ def parse_json(full_inpath, full_outpath, file_path):
     switchy_end = '''
 #END'''
 
+    switchy_pre = re.sub('2014\-12\-06',str(datetime.date.today()), switchy_pre)
+    # switchy_pre.replace('2014-12-06', str(datetime.date.today()))
     json_file = open(full_inpath, 'rt')
     json_data = json.loads(json_file.read())
     wildcard_items = []
