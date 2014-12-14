@@ -12,8 +12,12 @@
 
 默认读入当前路径的`patterns.json`。
 
+> [FoxyProxy下载](http://getfoxyproxy.org/downloads.html) |  [Mozilla Addons 地址](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
+
 ## SwitchySharp
 
 在SwitchySharp选项中切换到第二个标签页“切换规则”，启用在线规则列表，将以下地址填入：
 
     https://raw.githubusercontent.com/cnDelbert/ProxyPattern/master/SwitchySharp/switchyrules.txt
+
+> [SwitchyProxy下载](https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm)
