@@ -1,6 +1,6 @@
 ; Summary: Rule List Converted from FoxyProxy
 ; Author: Delbert (i@delbert.me)
-; Date: 2014-12-14
+; Date: 2014-12-15
 ; URL: https://github.com/cnDelbert/ProxyPattern/blob/master/SwitchySharp/switchyrules.txt
 
 #BEGIN
@@ -27,6 +27,16 @@
 *imgur.com/*
 *imageclef.org/*
 *github.com/*
+*twimg.com/*
+http://vimeo.com/*
+*.pixnet.net/*
+*nytimes.com/*
+*.wsj.com/*
+*wordpress.com/*
+*fanqianghou.com/*
+*feedly.com/*
+*.blogspot.com/*
+*.blogspot.jp/*
 
 [RegExp]
 

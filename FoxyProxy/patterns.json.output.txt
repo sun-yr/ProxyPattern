@@ -19,3 +19,13 @@
 *imgur.com/*
 *imageclef.org/*
 *github.com/*
+*twimg.com/*
+http://vimeo.com/*
+*.pixnet.net/*
+*nytimes.com/*
+*.wsj.com/*
+*wordpress.com/*
+*fanqianghou.com/*
+*feedly.com/*
+*.blogspot.com/*
+*.blogspot.jp/*
