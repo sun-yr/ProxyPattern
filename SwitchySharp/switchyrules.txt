@@ -1,6 +1,6 @@
 ; Summary: Rule List Converted from FoxyProxy
 ; Author: Delbert (i@delbert.me)
-; Date: 2014-12-15
+; Date: 2014-12-29
 ; URL: https://github.com/cnDelbert/ProxyPattern/blob/master/SwitchySharp/switchyrules.txt
 
 #BEGIN
@@ -37,6 +37,12 @@ http://vimeo.com/*
 *feedly.com/*
 *.blogspot.com/*
 *.blogspot.jp/*
+*.willowgarage.com/*
+*mega.co.nz/*
+*.amazonaws.com/*
+*.github.io/*
+*cheatsheetapp.com/*
+*.gmx.com/*
 
 [RegExp]
 

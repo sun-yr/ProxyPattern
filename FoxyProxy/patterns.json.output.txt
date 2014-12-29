@@ -29,3 +29,9 @@ http://vimeo.com/*
 *feedly.com/*
 *.blogspot.com/*
 *.blogspot.jp/*
+*.willowgarage.com/*
+*mega.co.nz/*
+*.amazonaws.com/*
+*.github.io/*
+*cheatsheetapp.com/*
+*.gmx.com/*
