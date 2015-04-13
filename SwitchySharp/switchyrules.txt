@@ -1,13 +1,13 @@
 ; Summary: Rule List Converted from FoxyProxy
 ; Author: Delbert (i@delbert.me)
-; Date: 2014-12-29
+; Date: 2015-04-13
 ; URL: https://github.com/cnDelbert/ProxyPattern/blob/master/SwitchySharp/switchyrules.txt
 
 #BEGIN
 
 [Wildcard]
 *twitter.com/*
-*.youtube.com/*
+*youtube.com/*
 *.ytimg.com/*
 *.facebook.com/*
 *archive.org/*
@@ -28,7 +28,7 @@
 *imageclef.org/*
 *github.com/*
 *twimg.com/*
-http://vimeo.com/*
+*.vimeo.com/*
 *.pixnet.net/*
 *nytimes.com/*
 *.wsj.com/*
@@ -43,6 +43,27 @@ http://vimeo.com/*
 *.github.io/*
 *cheatsheetapp.com/*
 *.gmx.com/*
+*.mail.ru/*
+*sourceforge.net/*
+*mediafire.com/*
+*list-manage.com/*
+*sites.google.com/*
+*macheist.com/*
+*.udn.com/*
+*s3.amazonaws.com/*
+http://*.google.com/*
+*.blogspot.sg/*
+*.tumblr.com/*
+http://*.v2ex.com/*
+*.avast.com/*
+http://*gfw.im/*
+*png.2vma.theucd.com/*
+*.googleusercontent.com/*
+*shadowsocks.org/*
+*dropbox.com/*
+*twtrland.com/*
+http://scholar.google.com/*
+*.dropboxstatic.com
 
 [RegExp]
 
