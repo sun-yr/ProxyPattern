@@ -1,6 +1,6 @@
 # Introduction
 
-This project is a repo which hold the。
+This project is a repo which hold the proxy scripts and rules。
 
 ## FoxyProxy
 
