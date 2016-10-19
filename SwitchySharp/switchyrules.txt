@@ -52,6 +52,7 @@
 *.udn.com/*
 *s3.amazonaws.com/*
 http://*.google.com/*
+https://*.google.com/*
 *.blogspot.sg/*
 *.tumblr.com/*
 http://*.v2ex.com/*
